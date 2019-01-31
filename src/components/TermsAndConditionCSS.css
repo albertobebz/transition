@@ -1,0 +1,12 @@
+.pageTransition-entering {
+  opacity: 0;
+  transform: translate(-10px);
+  width: 0;
+}
+
+.pageTransition-entered {
+  opacity: 1;
+  transform: translate(0px);
+  width: calc(100% - 112px);
+  transition: all 0.7s ease-out;
+}
